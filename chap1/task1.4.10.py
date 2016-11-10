@@ -8,7 +8,8 @@ from myplot import ploti
 input_file = 'twittan.jpeg'
 th = 120
 
-S = {0j, }
+# 空集合を作る
+S = set()
 
 img = Image.open(input_file)
 img_gray = ImageOps.grayscale(img)
