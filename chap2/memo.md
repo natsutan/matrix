@@ -36,5 +36,8 @@ def scalar_vector_mult(alpha, v):
     return [alpha*v[i] for in range(len(v))]
 
 ```
+## 2.5.1 Scaling arrows
 
+## 2.6.3 First look at convex combination
 
+# 2,7 dictionary-based representations of vectors

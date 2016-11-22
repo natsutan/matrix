@@ -14,7 +14,7 @@ def plot(S, size = 1, file = "output.png", xrange = [-5, 5], yrange = [-5, 5]):
         x.append(xy[0])
         y.append(xy[1])
 
-    ax.scatter(x, y, s=size)
+    ax.scatter(x, y, s=size, color='red')
 
     ax.set_xlabel('x')
     ax.set_ylabel('y')
