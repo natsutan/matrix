@@ -21,6 +21,13 @@ def addn(v, w):
     return [x+y for (x,y) in zip(v,w)]
 ```
 
+## 2.4.2 Vector addition is associative and commutative
+
+(x + y) + z  = x + (y + z)
+
+x + y = y + x
+
+## 2,4,3 vectors as arrows
 
 
 
