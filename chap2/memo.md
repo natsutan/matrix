@@ -15,6 +15,12 @@ def add2(v, w):
 
 ```
 
+要素がnのベクターの加算
+```python
+def addn(v, w):
+    return [x+y for (x,y) in zip(v,w)]
+```
+
 
 
 
