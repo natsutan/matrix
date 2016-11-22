@@ -29,5 +29,12 @@ x + y = y + x
 
 ## 2,4,3 vectors as arrows
 
+# 2.5 Scalar-vector multiplication
+
+```python
+def scalar_vector_mult(alpha, v):
+    return [alpha*v[i] for in range(len(v))]
+
+```
 
 
