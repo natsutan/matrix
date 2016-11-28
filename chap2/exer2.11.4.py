@@ -1,8 +1,6 @@
 from dicvec import *
 
-
 def triangular_solve_n(rowlist, b):
-
     def tri_solve_last(rowlist, b):
         """最後の一行だけ解く"""
         if len(b) == 0:
@@ -16,11 +14,11 @@ def triangular_solve_n(rowlist, b):
         # 計算結果を元に行列を縮小
         row_new = []
         b_new = []
-        for row, bori in zip(rowlist[0:-1], b[0:-1]):
-            bsub = row[-1] * x
+        for row, b_ori in zip(rowlist[0:-1], b[0:-1]):
+            b_sub = row[-1] * x
             row.pop()
             row_new.append(row)
-            b_new.append(bori - bsub)
+            b_new.append(b_ori - b_sub)
 
         return [x] + tri_solve_last(row_new, b_new)
 
@@ -29,6 +27,8 @@ def triangular_solve_n(rowlist, b):
 
     return result
 
+
+# ここから動作確認
 v1 = [[1, 0.5, -2, 4],
      [0,   3,  3,  2],
      [0,   0,  1,  5],

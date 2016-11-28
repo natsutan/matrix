@@ -5,7 +5,8 @@ class Vec:
         self.f = function
 
     def print(self):
-        print(self.f)
+        for key in sorted(self.f, key=hash):
+            print("%s:%s" % (key, str(self.f[key])))
 
 
 def setitem(v, d, val):
@@ -29,6 +30,10 @@ def add(u, v):
 
 def neg(v):
     return scalar_mul(v, -1)
+
+
+def list2vec(L):
+    return Vec(set(range(Len(L))), {k:x for k, x in enumerate(L)})
 
 def main():
     v = Vec({'A', 'B', 'C'}, {'A':1})
