@@ -7,6 +7,6 @@ v<sub>1</sub>, v<sub>2</sub>, ・・・, v<sub>n</sub>をベクトルとする�
 
 # 3.2 線形包
 ベクトルv<sub>1</sub>,v<sub>2</sub>,・・,v<sub>n</sub>の線形結合全てが成す集合を、ベクトルv<sub>1</sub>,v<sub>2</sub>,・・・,vnの線飽和、あるいはベクトルベクトルv<sub>1</sub>,v<sub>2</sub>,・・・,v<sub>n</sub>が張る空間と呼び、
-Span{ベクトルv<sub>1<sub>,v<sub>2<s/ub>,・・・,v<sub>n<s/ub>}と書く。
+Span{ベクトルv<sub>1</sub>,v<sub>2</sub>,・・・,v<sub>n</sub>}と書く。
 
 
