@@ -13,3 +13,4 @@ Span{v<sub>1</sub>,v<sub>2</sub>,・・・,v<sub>n</sub>}と書く。
 # 3.2.3 生成子
 νをベクトルの集合とする。ベクトルv<sub>1</sub>,・・・,v<sub>n</sub>が、ν=Span{v<sub>1</sub>,・・・,v<sub>n</sub>} を満たすとき、v<sub>1</sub>,・・・,v<sub>n</sub>をνの生成子と呼ぶ。
 
+R<sup>3</sup>の標準生成子は、e0 = [1,0,0]、e1 = [0,1,0]、 e2 = [0, 0, 1]
