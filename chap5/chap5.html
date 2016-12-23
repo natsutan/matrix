@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>chap5</title>
-<!-- 2016-12-16 金 00:29 -->
+<!-- 2016-12-23 金 21:29 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="natu" />
@@ -193,6 +193,12 @@ for the JavaScript code in this tag.
 </ul>
 </li>
 <li><a href="#sec-1-2">1.2. 初めての非可逆圧縮</a></li>
+<li><a href="#sec-1-3">1.3. 生成子を探す２つの欲張りアルゴリズム</a></li>
+<li><a href="#sec-1-4">1.4. 基底</a>
+<ul>
+<li><a href="#sec-1-4-1">1.4.1. 交換の補題</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -238,12 +244,74 @@ for the JavaScript code in this tag.
 
 <div id="outline-container-sec-1-2" class="outline-3">
 <h3 id="sec-1-2"><span class="section-number-3">1.2</span> 初めての非可逆圧縮</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+最も近いスパースベクトルに置き換える。→画像の劣化が激しい
+</p>
+
+<p>
+画像ベクトルを座標で表現する。→データ量が減ってない
+</p>
+
+
+<ul class="org-ul">
+<li>ステップ1 ベクトルa1&#x2026;.anを選ぶ
+</li>
+<li>ステップ2 圧縮したい画像に対応するベクトルvに対し、そのa1&#x2026;.anについての座標表現uを求める。
+</li>
+<li>ステップ3 uを最も近いkスパースベクトルu~で置き換え格納する。
+</li>
+<li>ステップ4 u~から画像を復元するために、対応するベクトルa1&#x2026;anの線型結合を計算する
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> 生成子を探す２つの欲張りアルゴリズム</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+<b>ベクトル空間νが与えられた時、その線形包がνと等しくなるベクトルの最小数はいくつか？</b>
+</p>
+
+<ul class="org-ul">
+<li>グローアルゴリズム
+</li>
+<li>シュリンクアルゴリズム
+</li>
+
+<li>線形独立
+</li>
+<li>線形従属
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> 基底</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+νをベクトル空間とする。νの基底とはνを生成する線形独立なベクトルの集合である。
+</p>
+</div>
+
+<div id="outline-container-sec-1-4-1" class="outline-4">
+<h4 id="sec-1-4-1"><span class="section-number-4">1.4.1</span> 交換の補題</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+線形包を変えることなく、ベクトルzを加えて別のベクトルを取り除ける。
+</p>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: natu</p>
-<p class="date">Created: 2016-12-16 金 00:29</p>
+<p class="date">Created: 2016-12-23 金 21:29</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
