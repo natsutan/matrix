@@ -1,11 +1,13 @@
 import numpy as np
 
+
 def calc_rowlist(a):
     r = []
     for row in a:
         pos = row.nonzero()[0][0]
         r.append(pos)
     return r
+
 
 def conv_echelon_form(a):
     row_list = calc_rowlist(a)
