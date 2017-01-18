@@ -1,3 +1,7 @@
+# 量子化テストコード
+# 完成版はこちら
+# https://github.com/natsutan/NPU/tree/master/python_ref
+
 import numpy as np
 
 # 4bitの最大値
